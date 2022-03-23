@@ -1,4 +1,3 @@
-/* eslint-disable react/react-in-jsx-scope */
 import { useCallback, useEffect, useState } from 'react';
 
 import './styles.css';
@@ -23,7 +22,6 @@ export const Home = () => {
   }, []);
 
   useEffect(() => {
-    //console.log(new Date().toLocaleString('pt-BR'));
     handleLoadPosts(0, postsPerPage);
   }, [handleLoadPosts, postsPerPage]);
 

@@ -1,10 +1,10 @@
-/* eslint-disable no-undef */
 /* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable no-undef */
+// eslint-disable-next-line react/react-in-jsx-scope
 import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { Button } from '.';
 
-// eslint-disable-next-line no-undef
 describe('<Button />', () => {
   it('should render the button with the text "Load more"', () => {
     render(<Button text="Load more" />);
